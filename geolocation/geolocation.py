@@ -75,7 +75,23 @@ def calculate_target_location(
     )
 
     return target_lat, target_lon
+def bbox_center(bbox):
+    """
+    Calculate the center pixel of a bounding box.
 
+    bbox format:
+        [x1, y1, x2, y2]
+
+    Returns:
+        center_x, center_y
+    """
+
+    x1, y1, x2, y2 = bbox
+
+    center_x = (x1 + x2) / 2
+    center_y = (y1 + y2) / 2
+
+    return center_x, center_y
 
 if __name__ == "__main__":
 
@@ -109,3 +125,12 @@ if __name__ == "__main__":
     print("\nEstimated target location:")
     print(f"Latitude : {latitude:.6f}")
     print(f"Longitude: {longitude:.6f}")
+        # Simulated DeepSORT bounding box
+    tracked_bbox = [600, 250, 800, 450]
+
+    target_x, target_y = bbox_center(tracked_bbox)
+
+    print("\nTracked object:")
+    print(f"Bounding box: {tracked_bbox}")
+    print(f"Center X: {target_x}")
+    print(f"Center Y: {target_y}")
