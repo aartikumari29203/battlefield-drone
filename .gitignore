@@ -35,7 +35,7 @@ datasets/*
 # =========================
 # Results
 # =========================
-
+runs/
 results/*
 !results/.gitkeep
 
