@@ -29,6 +29,7 @@ datasets/*
 # =========================
 
 *.pt
+!models/visdrone_best.pt
 *.pth
 *.onnx
 
