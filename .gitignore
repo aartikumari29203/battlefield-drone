@@ -29,13 +29,14 @@ datasets/*
 # =========================
 
 *.pt
+!models/visdrone_best.pt
 *.pth
 *.onnx
 
 # =========================
 # Results
 # =========================
-
+runs/
 results/*
 !results/.gitkeep
 
