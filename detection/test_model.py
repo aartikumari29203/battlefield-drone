@@ -1,26 +1,22 @@
-from ultralytics import YOLO
 from pathlib import Path
+from ultralytics import YOLO
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+MODEL_PATH = PROJECT_ROOT / "models" / "kiit_mita_best.pt"
 
 
 def main():
-    model = YOLO(
-        "runs/detect/results/kiit_test-2/weights/best.pt"
-    )
+    if not MODEL_PATH.exists():
+        print("❌ KIIT-MiTA model not found:")
+        print(MODEL_PATH)
+        return
 
-    test_images = Path(
-        "datasets/KIIT-MiTA/KIIT-MiTA/test/images"
-    )
+    model = YOLO(str(MODEL_PATH))
 
-    model.predict(
-        source=str(test_images),
-        conf=0.25,
-        save=True,
-        project="results",
-        name="kiit_predictions"
-    )
-
-    print("KIIT-MiTA testing completed.")
-    print("Predictions saved to results/kiit_predictions")
+    print("✅ KIIT-MiTA YOLO model loaded!")
+    print("Classes:")
+    print(model.names)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,3 @@
+Shard 1 | Images: 907 | Labels: 0
+Shard 2 | Images: 907 | Labels: 0
+Shard 3 | Images: 906 | Labels: 0
