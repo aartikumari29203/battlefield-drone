@@ -1,0 +1,5 @@
+path: C:/Users/sreem/OneDrive/Desktop/battlefield-drone/outputs/sisa_unlearning_run2/shards/shard_2
+train: images
+val: images
+
+names: ['Artillary', 'Missile', 'Radar', 'M. Rocket Launcher', 'Soldier', 'Tank', 'Vehicle']

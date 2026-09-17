@@ -1,0 +1,6 @@
+SISA MANIFEST
+============================================================
+
+Shard 1: 454 paired samples
+Shard 2: 453 paired samples
+Shard 3: 453 paired samples

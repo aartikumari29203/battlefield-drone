@@ -1,0 +1,20 @@
+* [33mfa7f9cf[m[33m ([m[1;31morigin/person3-unlearning-ui[m[33m, [m[1;32mperson3-unlearning-ui[m[33m)[m Update unlearning UI and detection pipeline
+*   [33mcf24ce5[m Merge remote-tracking branch 'origin/person2-tracking' into person3-unlearning-ui # Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch. # # Lines starting with '#' will be ignored, and an empty message aborts # the commit.
+[32m|[m[33m\[m  
+[32m|[m * [33m980c36b[m[33m ([m[1;31morigin/person2-tracking[m[33m)[m Add telemetry interface to geolocation pipeline
+[32m|[m * [33m564f896[m Add video tracking pipeline
+[32m|[m * [33m9ee225e[m Integrate YOLO DeepSORT and geolocation
+[32m|[m *   [33m82f052a[m Merge r:wqemote-tracking branch 'origin/person1-detection' into person2-tracking :wq#
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m|[m [33m385008c[m Connect tracking bounding boxes to geolocation
+[32m|[m * [35m|[m [33m7b3cb0f[m Implement geolocation prototype
+[32m|[m * [35m|[m [33mcb74d94[m Implement DeepSORT tracking module
+* [35m|[m [35m|[m [33m5c5b37e[m[33m ([m[1;31morigin/person3-integration[m[33m, [m[1;32mperson3-integration[m[33m)[m Connect unlearning module to Streamlit UI
+[35m|[m[35m/[m [35m/[m  
+[35m|[m [35m|[m * [33m1b05512[m[33m ([m[1;31morigin/person1-detection[m[33m)[m Add trained KIIT-MiTA model
+[35m|[m [35m|[m[35m/[m  
+[35m|[m * [33m3a6a868[m Add trained VisDrone model
+[35m|[m * [33m9ffccc7[m Complete YOLO detection pipeline
+[35m|[m[35m/[m  
+* [33m440113a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add initial project structure
+* [33md522c44[m Initial commit

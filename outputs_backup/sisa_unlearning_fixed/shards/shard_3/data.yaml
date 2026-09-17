@@ -1,0 +1,12 @@
+path: C:/Users/sreem/OneDrive/Desktop/battlefield-drone/outputs/sisa_unlearning_fixed/shards/shard_3
+train: images
+val: C:/Users/sreem/OneDrive/Desktop/battlefield-drone/datasets/KIIT-MiTA/test/images
+nc: 7
+names:
+- Artillary
+- Missile
+- Radar
+- M. Rocket Launcher
+- Soldier
+- Tank
+- Vehicle
